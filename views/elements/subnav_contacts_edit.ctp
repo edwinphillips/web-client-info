@@ -1,0 +1,3 @@
+<li><?php echo $html->link('List Contacts',array('controller'=>'contacts','action'=>'index')); ?></li>
+<li><?php echo $html->link('Delete Contact',array('controller'=>'contacts','action'=>'delete',$details['Contact']['id']),null,'Are you sure you want to delete the contact \'' . $details['Contact']['firstname'] . ' ' . $details['Contact']['lastname'] . '\'?'); ?></li>
+<li><?php echo $html->link('New Contact',array('controller'=>'contacts','action'=>'add')); ?></li>

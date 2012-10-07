@@ -1,0 +1,1 @@
+<li><?php echo $html->link('List Contacts',array('controller'=>'contacts','action'=>'index')); ?></li>

@@ -1,0 +1,189 @@
+body, html {
+    margin:0;
+    padding:0;
+}
+
+#wrap {
+    width:950px;
+    margin:0 auto;
+}
+
+#header {
+    padding:5px 10px;
+    background:#AAAAAA;
+    height: 50px;
+    line-height: 50px;
+}
+
+h1 {
+    margin:0;
+}
+
+#nav {
+    padding:5px 10px 5px 0;
+    height: 30px;
+}
+
+#nav ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+#nav li {
+    display:inline;
+    margin:0;
+    padding:0;
+    line-height: 30px;
+    padding-right: 15px;
+    
+}
+
+#main {
+    float:right;
+    width:760px;
+    padding:10px;
+    margin-bottom: 20px;
+   
+}
+
+#wide-main {
+    float:right;
+    width:930px;
+    padding:10px;
+}
+
+table.data {
+    width: 100%;
+}
+
+table.data tr {
+    background-color: #E0F3FF;
+}
+
+table.data tr.altrow {
+    background-color: #ADD6FF;
+}
+
+h2 {
+    margin:0 0 1em;
+}
+
+#sidebar {
+    float:left;
+    width:150px;
+    padding:10px 10px 10px 0;
+    background:#AAAAAA;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+#sidebar ul li {
+    margin-bottom: 5px;
+}
+
+#footer {
+    clear:both;
+    padding:5px 10px;
+    background:#AAAAAA;
+    height: 50px;
+}
+
+#footer p {
+    margin: 0;
+    line-height: 50px;
+}
+
+* html #footer {
+    height:1px;
+}
+
+div#spinner
+{
+    display: none;
+    width:114px;
+    height: 114px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    padding:10px;
+    margin-left: -50px;
+    margin-top: -50px;
+    z-index:2;
+    overflow: auto;
+}
+
+.input label {
+    display: block;
+    float: left;
+    width: 100px;
+}
+
+.input input[type="text"], .input textarea, .input input[type="password"] {
+    width:300px;
+}
+
+.input select {
+    min-width: 300px;
+}
+
+#flashMessage {
+    background-color: red;
+    color: white;
+    display: block;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+}
+
+.message {
+    color: red;
+}
+
+.error-message {
+    background-color: red;
+    color: white;
+    margin: 2px 0;
+    padding: 5px;    
+}
+
+a:link {
+    text-decoration: none;
+    color: blue;
+}
+a:visited {
+    text-decoration: none;
+    color: blue;
+}
+a:active {
+    text-decoration: none;
+    color: blue;
+}
+a:hover {
+    text-decoration: underline; 
+    color: blue;
+}
+
+a.add-button {
+    background-color: gray;
+    color: white;
+    padding: 3px;    
+}
+
+.actions ul {
+    list-style: none outside none;    
+}
+
+#main form {
+  margin-top: 10px;    
+}
+
+#main form fieldset legend {
+    background-color: grey;
+    border: thin none;
+    color: white;
+}

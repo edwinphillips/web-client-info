@@ -1,0 +1,3 @@
+<li><?php echo $html->link('Edit this Website',array('controller'=>'websites','action'=>'edit',$details['Website']['slug'])); ?></li>
+<li><?php echo $html->link('Delete this Website',array('controller'=>'websites','action'=>'delete',$details['Website']['id']),null,'Are you sure you want to delete the website \'' . $details['Website']['name'] . '\'?'); ?></li>
+<li><?php echo $html->link('Add Website',array('controller'=>'websites','action'=>'add')); ?></li>

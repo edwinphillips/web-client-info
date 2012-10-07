@@ -1,0 +1,3 @@
+<li><?php echo $html->link('Edit this Client',array('controller'=>'clients','action'=>'edit',$details['Client']['slug'])); ?></li>
+<li><?php echo $html->link('Delete this Client',array('controller'=>'clients','action'=>'delete',$details['Client']['id']),null,'Are you sure you want to delete \'' . $details['Client']['name'] . '\'?'); ?></li>
+<li><?php echo $html->link('Add Client',array('controller'=>'clients','action'=>'add')); ?></li>

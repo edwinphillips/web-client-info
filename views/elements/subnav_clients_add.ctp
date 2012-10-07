@@ -1,0 +1,1 @@
+<li><?php echo $html->link('List Clients',array('controller'=>'clients','action'=>'index')); ?></li>
