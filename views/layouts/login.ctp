@@ -23,7 +23,7 @@
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>
-		<?php __('Magnetic Works Extranet ::'); ?>
+		<?php __('Web Client Info ::'); ?>
 		<?php echo $title_for_layout; ?>
 	</title>
 	<?php
@@ -38,7 +38,7 @@
 
     <div id="wrap">
 
-        <div id="header">Magnetic Works Extranet</div>
+        <div id="header">Web Client Info</div>
 
         <div id="wide-main">
             <?php echo $this->Session->flash(); ?>
@@ -46,7 +46,7 @@
         </div>
 
         <div id="footer">
-            <p>&copy; Magnetic Works 2012</p>
+            <p></p>
         </div>
 
     </div>

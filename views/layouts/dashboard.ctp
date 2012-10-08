@@ -22,7 +22,7 @@
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>
-		<?php __('Magnetic Works Extranet ::'); ?>
+		<?php __('Web Client Info ::'); ?>
 		<?php echo $title_for_layout; ?>
 	</title>
 	<?php
@@ -37,7 +37,7 @@
     <div id="wrapper">
     
         <div id="header">
-            <?php echo $html->link('Magnetic Works Extranet',array('controller'=>'pages', 'action'=>'home'),null,null,false);?>
+            <?php echo $html->link('Web Client Info',array('controller'=>'pages', 'action'=>'home'),null,null,false);?>
         </div>
 
         <div id="nav">
@@ -59,7 +59,7 @@
   
         
         <div id="footer">
-            <p>&copy; Magnetic Works 2012</p>
+            <p></p>
         </div>
         
     </div>
