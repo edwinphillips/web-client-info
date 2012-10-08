@@ -43,8 +43,8 @@
     <div id="wrap">
 
         <div id="header">
-            <?php echo $html->link('Web Client Info',array('controller'=>'pages', 'action'=>'home'),array('class'=>'header-link'),null,false);?>
-            <?php echo $html->link('Logout',array('controller'=>'users', 'action'=>'logout'),array('class'=>'logout'),null,'Are you sure you want to log out?'); ?>
+            <?php echo $html->link('Web Client Info',array('controller'=>'pages', 'action'=>'home'),array('class'=>'header-link'),null);?>
+            <?php echo $html->link('Logout',array('controller'=>'users', 'action'=>'logout'),array('class'=>'logout'),'Are you sure you want to log out?'); ?>
         </div>
 
         <div id="nav">
