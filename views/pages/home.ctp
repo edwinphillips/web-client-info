@@ -1,4 +1,4 @@
-<h2>Extranet Dashboard</h2>
+<h2><em>{Dashboard information to go here}</em></h2>
 
 
 
