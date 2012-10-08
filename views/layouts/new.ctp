@@ -23,7 +23,7 @@
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>
-		<?php __('Magnetic Works Extranet ::'); ?>
+		<?php __('Web Client Info ::'); ?>
 		<?php echo $title_for_layout; ?>
 	</title>
 	<?php
