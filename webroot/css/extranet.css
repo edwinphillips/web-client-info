@@ -2,16 +2,18 @@ body, html {
     margin:0;
     padding:0;
     font-family:Verdana,Geneva,sans-serif;
+    background: none repeat scroll 0 0 #FFCC99;
 }
 
 #wrap {
     width:950px;
     margin:0 auto;
+    background: none repeat scroll 0 0 #FF6633;
 }
 
 #header {
     padding:5px 10px;
-    background:#FF7700;
+    background:#FF6633;
     height: 50px;
     line-height: 50px;
 }
@@ -27,7 +29,7 @@ h1 {
 #nav {
     padding:5px 10px 5px 0;
     height: 30px;
-    background: none repeat scroll 0 0 #FFCC00;
+    background: none repeat scroll 0 0 #FF9966;
 }
 
 #nav ul {
@@ -46,10 +48,10 @@ h1 {
 
 #main {
     float:right;
-    width:760px;
+    width:770px;
     padding:10px;
-    margin-bottom: 20px;
-    background: none repeat scroll 0 0 #CCCC99;
+    /* margin-bottom: 20px; */
+    background: none repeat scroll 0 0 #FFCC66;
 }
 
 form input[type="submit"] {
@@ -64,18 +66,18 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-    background: #FF7700;
+    background: #FF6633;
 }
     
 #wide-main {
     float:right;
     width:930px;
     padding:10px;
-    background: none repeat scroll 0 0 #FFCC00;
+    background: none repeat scroll 0 0 #FFCC66;
 }
 
 #breadcrumb {
-    background: none repeat scroll 0 0 #CCCCCC;
+    /* background: none repeat scroll 0 0 #FF9933; */
     margin-bottom: 10px;
 }
 
@@ -84,11 +86,11 @@ table.data {
 }
 
 table.data tr {
-    background-color: #E0F3FF;
+    background-color: #FF9933;
 }
 
 table.data tr.altrow {
-    background-color: #ADD6FF;
+    background-color: #FF9966;
 }
 
 h2 {
@@ -99,7 +101,7 @@ h2 {
     float:left;
     width:150px;
     padding:10px 10px 10px 0;
-    background:none repeat scroll 0 0 #FF7700;
+    background:none repeat scroll 0 0 #FF6633;
 }
 
 #sidebar ul {
@@ -109,13 +111,13 @@ h2 {
 
 #sidebar ul li {
     margin-bottom: 5px;
-    background: none repeat scroll 0 0 #FFAA00;
+    background: none repeat scroll 0 0 #FF9966;
 }
 
 #footer {
     clear:both;
     padding:5px 10px;
-    background:none repeat scroll 0 0 #FF7700;
+    background:none repeat scroll 0 0 #FF6633;
     height: 50px;
 }
 
@@ -197,7 +199,7 @@ a:hover {
 }
 
 a.add-button {
-    background: none repeat scroll 0 0 #FFDD19;
+    background: none repeat scroll 0 0 #FF9933;
     border: 3px solid #FFFFFF;
     border-radius: 20px 20px 20px 20px;
     color: #2C599E;
