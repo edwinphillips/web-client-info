@@ -44,7 +44,7 @@
 
         <div id="header">
             <?php echo $html->link('Web Client Info',array('controller'=>'pages', 'action'=>'home'),null,null);?>
-            <?php echo $html->link('Logout',array('controller'=>'users', 'action'=>'logout'),null,'Are you sure you want to log out?'); ?>
+            <?php echo $html->link('Logout',array('controller'=>'users', 'action'=>'logout'),array('class'=>'logout'),'Are you sure you want to log out?'); ?>
         </div>
 
         <div id="nav">
