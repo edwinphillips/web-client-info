@@ -1,6 +1,7 @@
 body, html {
     margin:0;
     padding:0;
+    font-family:Verdana,Geneva,sans-serif;
 }
 
 #wrap {
@@ -13,6 +14,10 @@ body, html {
     background:#FF7700;
     height: 50px;
     line-height: 50px;
+}
+
+#header a.logout {
+    float:right;
 }
 
 h1 {
@@ -44,13 +49,18 @@ h1 {
     width:760px;
     padding:10px;
     margin-bottom: 20px;
-   
+    background: none repeat scroll 0 0 #CCCC99;
 }
 
 #wide-main {
     float:right;
     width:930px;
     padding:10px;
+}
+
+#breadcrumb {
+    background: none repeat scroll 0 0 #CCCCCC;
+    margin-bottom: 10px;
 }
 
 table.data {
@@ -73,16 +83,17 @@ h2 {
     float:left;
     width:150px;
     padding:10px 10px 10px 0;
-    background:#AAAAAA;
+    background:none repeat scroll 0 0 #FF7700;
 }
 
 #sidebar ul {
     list-style-type: none;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 #sidebar ul li {
     margin-bottom: 5px;
+    background: none repeat scroll 0 0 #FFAA00;
 }
 
 #footer {
@@ -131,8 +142,8 @@ div#spinner
 }
 
 #flashMessage {
-    background-color: red;
-    color: white;
+    background-color: #FFAA77;
+    color: red;
     display: block;
     font-weight: bold;
     height: 50px;
@@ -145,8 +156,9 @@ div#spinner
 }
 
 .error-message {
-    background-color: red;
-    color: white;
+    /* background-color: red;
+    color: white;  */
+    color: red;
     margin: 2px 0;
     padding: 5px;    
 }
@@ -169,9 +181,12 @@ a:hover {
 }
 
 a.add-button {
-    background-color: gray;
-    color: white;
-    padding: 3px;    
+    background: none repeat scroll 0 0 #FFDD19;
+    border: 3px solid #FFFFFF;
+    border-radius: 20px 20px 20px 20px;
+    color: #2C599E;
+    font-weight: bold;
+    padding: 5px 15px;   
 }
 
 .actions ul {
@@ -183,7 +198,7 @@ a.add-button {
 }
 
 #main form fieldset legend {
-    background-color: grey;
+    background-color: #FFAA77;
     border: thin none;
-    color: white;
+    color: black;
 }
