@@ -22,6 +22,7 @@ h1 {
 #nav {
     padding:5px 10px 5px 0;
     height: 30px;
+    background: none repeat scroll 0 0 #FFCC00;
 }
 
 #nav ul {
@@ -33,9 +34,8 @@ h1 {
 #nav li {
     display:inline;
     margin:0;
-    padding:0;
+    padding: 0 15px 0 15px;
     line-height: 30px;
-    padding-right: 15px;
     
 }
 
@@ -88,7 +88,7 @@ h2 {
 #footer {
     clear:both;
     padding:5px 10px;
-    background:#AAAAAA;
+    background:none repeat scroll 0 0 #FF7700;
     height: 50px;
 }
 
